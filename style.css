@@ -21,6 +21,10 @@ body {
     color: #F9FAF8
 }
 
+.cta-button {
+
+}
+
 .testimonial {
     background-color: #E5E7EB;
     font-size: 36px;
@@ -34,12 +38,35 @@ body {
 
 .call-to-action {
     background-color: #3882f6 ;
+    text-align: center;
+    border-radius: 15px;
+    margin: 50px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta-button-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 75px;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 75px;
+    
 }
 
 .footer {
     background-color: #1F2937;
     color: #E5E7EB;
     font-size: 10px;
+    text-align: center;
+    padding: 30px;
 }
 
 .main-content-title {
