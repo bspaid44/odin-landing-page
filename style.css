@@ -31,3 +31,32 @@ body {
     font-size: 36px;
     color: #1F2937
 }
+
+.call-to-action {
+    background-color: #3882f6 ;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 10px;
+}
+
+.main-content-title {
+    display: flex;
+    justify-content: center;
+}
+
+.main-content-images {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 10px
+}
+
+.content-images img {
+    border-radius: 25px;
+    border: 3px solid #3882f6;
+    height: auto;
+    width: 200px;
+}
