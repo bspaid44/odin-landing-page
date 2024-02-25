@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     <div class="header">
         <div class="nav-bar">
             <img src="/images/logo.png" alt="logo" height="160" width="160">
-            <a href="#">Header Link 1</a>
-            <a href="#">Header Link 2</a>
-            <a href="#">Header Link 3</a>
+            <a href="#">Sign In</a>
+            <a href="#">My Account</a>
+            <a href="#">Wishlist</a>
         </div>
 
         <div class="header-main-content">
-            <h2>This website is awesome</h2>
-            <p>This website has some subtext that goes here under the main title.  It is a smaller font and the color is lower contrast</p>
-            <button type="button" onclick="window.location.href='#';">Sign Up</button>
+            <h2 class="hero-main">This website is awesome</h2>
+            <p class="hero-secondary">This website has some subtext that goes here under the main title.  It is a smaller font and the color is lower contrast</p>
+            <button class="button" onclick="window.location.href='#';">Sign Up</button>
         </div>
 
         <div class="header-showcase">
@@ -26,19 +27,43 @@
     </div>
 
     <div class="main-content">
+        <div class="main-content-title">
+            <h3>Some random information</h3>
+        </div>
 
+        <div class="content-images">
+            <img src="images/travel1.png" alt="travel photo destination 1">
+            <p>Visit beautiful Napoli</p>
+        </div>
+        <div class="content-images">
+            <img src="images/travel2.png" alt="travel photo destination 2">
+            <p>Visit beautiful Istanbul</p>
+        </div>
+        <div class="content-images">
+            <img src="images/travel3.png" alt="travel photo destination 3">
+            <p>Visit beautiful Prague</p>
+        </div>
+        <div class="content-images">
+            <img src="images/travel4.png" alt="travel photo destination 4">
+            <p>Visit beautiful London</p>
+        </div>
     </div>
 
     <div class="testimonial">
-
+        <blockquote>
+            <p><i>This is my quote, there are many like it, but this one is mine</i></p>
+            <cite><strong>-Brandon Spaid</strong></cite>
+        </blockquote>
     </div>
 
     <div class="call-to-action">
-
+        <h2 class="cta-title">Call to Action! It's time!</h2>
+        <p class="cta-text">Sign up for our product by clicking the button right over there</p>
+        <button class="cta-button" onclick="window.location.href='#';">Sign up</button>
     </div>
 
     <div class="footer">
-
+        <p>Copyright @ Brandon Spaid 2024</p>
     </div>
 </body>
 </html>

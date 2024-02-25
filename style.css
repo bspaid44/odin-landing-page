@@ -1,0 +1,33 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header {
+    background-color: #1F2937;
+}
+
+.hero-main {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.hero-secondary, .nav-bar a {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.button {
+    background-color: #3882f6;
+    color: #F9FAF8
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937
+}
+
+.main-content-title {
+    font-size: 36px;
+    color: #1F2937
+}
